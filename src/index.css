@@ -16,6 +16,9 @@
     text-xs font-bold transition-all duration-100 
     scale-0 origin-left;
   }
+  .sidebar-hr {
+    @apply mx-2 bg-gray-200 dark:bg-gray-800 rounded-full border border-gray-200 dark:border-gray-800;
+  }
   .channel-bar {
     @apply w-80 h-screen m-0 ml-16 bg-gray-200
      dark:bg-gray-800 overflow-hidden;
