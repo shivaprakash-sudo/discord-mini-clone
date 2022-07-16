@@ -3,6 +3,7 @@
 module.exports = {
   mode: "jit",
   content: ["./public/**/*.html", "./src/**/*.js"],
+  darkMode: "class",
   theme: {
     extend: {
       colors: {

@@ -16,4 +16,40 @@
     text-xs font-bold transition-all duration-100 
     scale-0 origin-left;
   }
+  .channel-bar {
+    @apply w-80 h-screen m-0 ml-16 bg-gray-200
+     dark:bg-gray-800 overflow-hidden;
+  }
+  .channel-container {
+    @apply flex flex-col justify-start items-center p-1 m-0;
+  }
+  .channel-block {
+    @apply h-16 p-0 m-0 flex items-center justify-center;
+  }
+  .channel-block-text {
+    @apply text-lg font-bold tracking-wider text-gray-600
+    dark:text-gray-400 ml-4 mr-auto;
+  }
+  .dropdown {
+    @apply m-0 w-full px-2 pb-2 transition duration-300 ease-in-out;
+  }
+  .dropdown-header {
+    @apply text-gray-500 flex items-center cursor-pointer;
+  }
+  .dropdown-header-text {
+    @apply text-gray-500;
+  }
+  .dropdown-header-text-selected {
+    @apply text-blue-500;
+  }
+  .dropdown-header-text,
+  .dropdown-header-text-selected {
+    @apply text-lg text-opacity-90 font-semibold;
+  }
+  .dropdown-selection {
+    @apply flex ml-2 mt-1 gap-1 items-center transition duration-300 ease-in-out;
+  }
+  .dropdown-selection-text {
+    @apply text-gray-500 font-semibold hover:text-pink-500 dark:hover:text-gray-600 cursor-pointer transition duration-300 ease-in-out;
+  }
 }
